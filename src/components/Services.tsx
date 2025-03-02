@@ -34,7 +34,7 @@ const Services: React.FC = () => {
       title: 'Арки, откосы, поклейка обоев',
       description: 'Профессиональное создание арочных конструкций любой сложности, оформление оконных и дверных откосов, а также качественная поклейка обоев различных типов с идеальной стыковкой рисунка.',
       icon: <Wallpaper size={24} className="text-white" />,
-      backgroundImage: 'https://images.unsplash.com/photo-1595428774223-ef52624120d2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+      backgroundImage: 'https://raw.githubusercontent.com/open00103/image/refs/heads/main/%D0%90%D1%80%D0%BA%D0%B8%2C%20%D0%BE%D1%82%D0%BA%D0%BE%D1%81%D1%8B%2C%20%D0%BF%D0%BE%D0%BA%D0%BB%D0%B5%D0%B9%D0%BA%D0%B0%20%D0%BE%D0%B1%D0%BE%D0%B5%D0%B2.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
     },
     {
       title: 'Укладка плитки, ламината, линолеума, ковролина',
