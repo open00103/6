@@ -27,7 +27,10 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
           </h1>
           <p className="text-lg text-gray-200 mb-8">
             Профессиональные услуги по ремонту и отделке квартир, домов и офисов. 
+            
             Работаем быстро, качественно и по доступным ценам.
+            121
+            545
           </p>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <button 
