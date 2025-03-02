@@ -9,7 +9,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
     <section 
       className="relative py-20 bg-cover bg-center"
       style={{ 
-        backgroundImage: 'url(https://github.com/open00103/image/blob/main/%D0%9A%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B8%20%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0%20%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9.jpg?raw=true?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80)',
+        backgroundImage: 'url(https://github.com/open00103/image/blob/main/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B2%20%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D0%B2%D0%B5.jpg?raw=true?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80)',
         minHeight: '600px'
       }}
     >
