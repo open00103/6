@@ -2,7 +2,7 @@ import React from 'react';
 
 const About: React.FC = () => {
   const stats = [
-    { value: '200+', label: 'Выполненных проектов' },
+    { value: '500+', label: 'Выполненных проектов' },
     { value: '100%', label: 'Опытные профессионалы' },
     { value: '98%', label: 'Довольных клиентов' },
     { value: '10+', label: 'Лет на рынке' }
