@@ -1,23 +1,13 @@
 import React from 'react';
 
-const Footer: React.FC = () => {
-  const services = [
-    'Арки, откосы, поклейка обоев',
-    'Укладка плитки, ламината',
-    'Выравнивание стен и потолков',
-    'Штукатурка, шпатлевка, покраска',
-    'Ремонт и утепление балконов',
-    'Помощь в выборе материалов'
-  ];
-
+const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-          {/* Left Column */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
             <h3 className="text-xl font-bold mb-4">РемонтПро</h3>
-            <p className="text-gray-400 mb-4">Профессиональный ремонт и отделка помещений любой сложности. Качество, проверенное временем.</p>
+            <p className="text-gray-300 mb-4">Профессиональный ремонт и отделка помещений любой сложности. Качество, проверенное временем.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-white">
                 <span className="sr-only">Facebook</span>
@@ -41,42 +31,37 @@ const Footer: React.FC = () => {
             </div>
           </div>
           
-          {/* Center Column */}
           <div>
             <h3 className="text-xl font-bold mb-4">Услуги</h3>
             <ul className="space-y-2">
-              {services.map((service, index) => (
-                <li key={index} className="text-gray-400 text-sm">{service}</li>
-              ))}
+              <li><a href="#services" className="text-gray-300 hover:text-white">Арки, откосы, поклейка обоев</a></li>
+              <li><a href="#services" className="text-gray-300 hover:text-white">Укладка плитки, ламината</a></li>
+              <li><a href="#services" className="text-gray-300 hover:text-white">Выравнивание стен и потолков</a></li>
+              <li><a href="#services" className="text-gray-300 hover:text-white">Штукатурка, шпатлевка, покраска</a></li>
+              <li><a href="#services" className="text-gray-300 hover:text-white">Многоуровневые потолки</a></li>
+              <li><a href="#services" className="text-gray-300 hover:text-white">Сантехнические работы</a></li>
+              <li><a href="#services" className="text-gray-300 hover:text-white">Электромонтажные работы</a></li>
+              <li><a href="#services" className="text-gray-300 hover:text-white">Натяжные потолки</a></li>
+              <li><a href="#services" className="text-gray-300 hover:text-white">Помощь в выборе материалов</a></li>
             </ul>
           </div>
           
-          {/* Right Column */}
           <div>
-            <h4 class="text-lg font-semibold mb-4">Контакты</h4>
-            <ul class="space-y-2">
-              <li class="flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone w-4 h-4 mr-2">
-                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                </svg>
-                <span class="text-gray-400">+375 44 540-44-60 Станислав</span>
+            <h3 className="text-xl font-bold mb-4">Контакты</h3>
+            <ul className="space-y-2">
+              <li className="text-gray-300">
+                <span className="block font-medium">Телефон:</span>
+                <a href="tel:+375445404460" className="hover:text-white">+375 44 540-44-60</a>
               </li>
-              <li class="flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail w-4 h-4 mr-2">
-                  <rect width="20" height="16" x="2" y="4" rx="2"></rect>
-                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
-                </svg>
-                <span class="text-gray-400">info@remontpro.by</span>
+              <li className="text-gray-300">
+                <span className="block font-medium">Email:</span>
+                <a href="mailto:info@remontpro.by" className="hover:text-white">info@remontpro.by</a>
               </li>
-              <li class="flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-4 h-4 mr-2">
-                  <circle cx="12" cy="12" r="10"></circle>
-                  <polyline points="12 6 12 12 16 14"></polyline>
-                </svg>
-                <span class="text-gray-400">Пн-Пт: 9:00 - 19:00, Сб: 10:00 - 16:00</span>
-              </li>
-              <li class="flex items-center">
-                <span class="text-gray-400">УНП: МВ0197475</span>
+              <li className="text-gray-300">
+                <span className="block font-medium">Время работы:</span>
+                Пн-Пт: 9:00 - 19:00<br />
+                Сб: 10:00 - 16:00<br />
+                Вс: выходной
               </li>
             </ul>
           </div>
