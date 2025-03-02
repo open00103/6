@@ -17,20 +17,11 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
       <div className="container mx-auto px-4 relative z-10 h-full flex items-center">
         <div className="max-w-2xl my-16">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Качественный ремонт
-          </h1>
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            и отделка помещений
-          </h1>
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            в Могилеве
+            Качественный ремонт и отделка помещений в Могилеве
           </h1>
           <p className="text-lg text-gray-200 mb-8">
             Профессиональные услуги по ремонту и отделке квартир, домов и офисов. 
-            
             Работаем быстро, качественно и по доступным ценам.
-            121
-            545
           </p>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <button 
