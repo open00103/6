@@ -71,7 +71,7 @@ const Footer = () => {
                 <span class="text-gray-400">Пн-Пт: 9:00 - 19:00, Сб: 10:00 - 16:00</span>
               </li>
               <li class="flex items-center">
-                <span class="text-gray-400">УНП: МВ0197475</span>
+                <span class="text-gray-400">УНП: МВ0197475 Битковский С.М.</span>
               </li>
             </ul>
           </div>
