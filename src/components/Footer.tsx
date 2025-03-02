@@ -82,9 +82,8 @@ const Footer: React.FC = () => {
           </div>
         </div>
         
-        <div className="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 mb-2 md:mb-0">© {new Date().getFullYear()} РемонтПро. Все права защищены.</p>
-          <p className="text-gray-400">УНП: МВ0197475</p>
+        <div className="border-t border-gray-700 mt-10 pt-6 text-center">
+          <p className="text-gray-400">&copy; {new Date().getFullYear()} РемонтПро. Все права защищены.</p>
         </div>
       </div>
     </footer>
