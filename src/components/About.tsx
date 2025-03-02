@@ -43,7 +43,7 @@ const About: React.FC = () => {
           
           <div className="lg:w-1/2">
             <img 
-              src="https://images.unsplash.com/photo-1593696140826-c58b021acf8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+              src="https://github.com/open00103/image/blob/main/%D0%9E%20%D0%BD%D0%B0%D1%88%D0%B5%D0%B9%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8.jpg?raw=true?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
               alt="Ремонт квартир" 
               className="rounded-lg shadow-xl w-full h-auto"
             />
