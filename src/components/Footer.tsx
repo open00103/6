@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
           {/* Center Column */}
           <div>
             <h3 className="text-xl font-bold mb-4">Услуги</h3>
-            <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
+            <ul className="space-y-2">
               {services.map((service, index) => (
                 <li key={index} className="text-gray-400 text-sm">{service}</li>
               ))}
