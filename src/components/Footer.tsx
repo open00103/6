@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
             <h3 className="text-xl font-bold mb-4">Услуги</h3>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
               {services.map((service, index) => (
-                <li key={index} className="text-gray-400 text-sm">{service}</li>
+                <li key={index} className="text-gray-300 text-sm">{service}</li>
               ))}
             </ul>
           </div>
@@ -54,9 +54,22 @@ const Footer: React.FC = () => {
           {/* Right Column */}
           <div>
             <h3 className="text-xl font-bold mb-4">Контакты</h3>
-            <p className="text-gray-400 mb-2">+375 44 540-44-60 Станислав</p>
-            <p className="text-gray-400 mb-2">info@remontpro.by</p>
-            <p className="text-gray-400">Пн-Пт: 9:00 - 19:00, Сб: 10:00 - 16:00</p>
+            <ul className="space-y-2">
+              <li className="text-gray-300">
+                <span className="block font-medium">Телефон:</span>
+                <a href="tel:+375445404460" className="hover:text-white">+375 44 540-44-60</a>
+              </li>
+              <li className="text-gray-300">
+                <span className="block font-medium">Email:</span>
+                <a href="mailto:info@remontpro.by" className="hover:text-white">info@remontpro.by</a>
+              </li>
+              <li className="text-gray-300">
+                <span className="block font-medium">Время работы:</span>
+                Пн-Пт: 9:00 - 19:00<br />
+                Сб: 10:00 - 16:00<br />
+                Вс: выходной
+              </li>
+            </ul>
           </div>
         </div>
         
