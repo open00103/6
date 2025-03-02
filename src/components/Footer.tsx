@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
             <h3 className="text-xl font-bold mb-4">РемонтПро</h3>
-            <p className="text-gray-300 mb-4">Профессиональный ремонт и отделка помещений любой сложности. Качество, проверенное временем.</p>
+            <p className="text-gray-400 mb-4">Профессиональный ремонт и отделка помещений любой сложности. Качество, проверенное временем.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-white">
                 <span className="sr-only">Facebook</span>
@@ -34,15 +34,15 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Услуги</h3>
             <ul className="space-y-2">
-              <li><a href="#services" className="text-gray-300 hover:text-white">Арки, откосы, поклейка обоев</a></li>
-              <li><a href="#services" className="text-gray-300 hover:text-white">Укладка плитки, ламината</a></li>
-              <li><a href="#services" className="text-gray-300 hover:text-white">Выравнивание стен и потолков</a></li>
-              <li><a href="#services" className="text-gray-300 hover:text-white">Штукатурка, шпатлевка, покраска</a></li>
-              <li><a href="#services" className="text-gray-300 hover:text-white">Многоуровневые потолки</a></li>
-              <li><a href="#services" className="text-gray-300 hover:text-white">Сантехнические работы</a></li>
-              <li><a href="#services" className="text-gray-300 hover:text-white">Электромонтажные работы</a></li>
-              <li><a href="#services" className="text-gray-300 hover:text-white">Натяжные потолки</a></li>
-              <li><a href="#services" className="text-gray-300 hover:text-white">Помощь в выборе материалов</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-white">Арки, откосы, поклейка обоев</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-white">Укладка плитки, ламината</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-white">Выравнивание стен и потолков</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-white">Штукатурка, шпатлевка, покраска</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-white">Многоуровневые потолки</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-white">Сантехнические работы</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-white">Электромонтажные работы</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-white">Натяжные потолки</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-white">Помощь в выборе материалов</a></li>
             </ul>
           </div>
           
