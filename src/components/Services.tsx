@@ -40,67 +40,67 @@ const Services: React.FC = () => {
       title: 'Укладка плитки, ламината, линолеума, ковролина',
       description: 'Точная и аккуратная укладка напольных покрытий с соблюдением технологии. Работаем с керамической плиткой, керамогранитом, ламинатом, линолеумом и ковролином любой сложности.',
       icon: <Grid3X3 size={24} className="text-white" />,
-      backgroundImage: 'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+      backgroundImage: 'https://github.com/open00103/image/blob/main/%D0%A3%D0%BA%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0%20%D0%BF%D0%BB%D0%B8%D1%82%D0%BA%D0%B8,%20%D0%BB%D0%B0%D0%BC%D0%B8%D0%BD%D0%B0%D1%82%D0%B0,%20%D0%BB%D0%B8%D0%BD%D0%BE%D0%BB%D0%B5%D1%83%D0%BC%D0%B0,%20%D0%BA%D0%BE%D0%B2%D1%80%D0%BE%D0%BB%D0%B8%D0%BD%D0%B0.jpg?raw=true?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
     },
     {
       title: 'Выравнивание стен и потолков, стяжка пола',
       description: 'Профессиональное выравнивание поверхностей с использованием современных материалов и технологий. Создаем идеально ровное основание для дальнейшей отделки.',
       icon: <Ruler size={24} className="text-white" />,
-      backgroundImage: 'https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+      backgroundImage: 'https://github.com/open00103/image/blob/main/%D0%92%D1%8B%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%81%D1%82%D0%B5%D0%BD%20%D0%B8%20%D0%BF%D0%BE%D1%82%D0%BE%D0%BB%D0%BA%D0%BE%D0%B2,%20%D1%81%D1%82%D1%8F%D0%B6%D0%BA%D0%B0%20%D0%BF%D0%BE%D0%BB%D0%B0.jpg?raw=true?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
     },
     {
       title: 'Штукатурка, шпатлевка, покраска',
       description: 'Качественное нанесение штукатурки и шпатлевки для создания идеально гладких поверхностей. Профессиональная покраска с равномерным нанесением и без подтеков.',
       icon: <Paintbrush size={24} className="text-white" />,
-      backgroundImage: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+      backgroundImage: 'https://github.com/open00103/image/blob/main/%D0%A8%D1%82%D1%83%D0%BA%D0%B0%D1%82%D1%83%D1%80%D0%BA%D0%B0,%20%D1%88%D0%BF%D0%B0%D1%82%D0%BB%D0%B5%D0%B2%D0%BA%D0%B0,%20%D0%BF%D0%BE%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B0.jpg?raw=true?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
     },
     {
       title: 'Многоуровневые потолки из гипсокартона',
       description: 'Создание эксклюзивных многоуровневых потолочных конструкций из гипсокартона любой сложности. Реализуем дизайнерские решения с встроенным освещением.',
       icon: <Layers size={24} className="text-white" />,
-      backgroundImage: 'https://images.unsplash.com/photo-1594940208655-d433a9428f97?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+      backgroundImage: 'https://github.com/open00103/image/blob/main/%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D0%B5%D0%B2%D1%8B%D0%B5%20%D0%BF%D0%BE%D1%82%D0%BE%D0%BB%D0%BA%D0%B8%20%D0%B8%D0%B7%20%D0%B3%D0%B8%D0%BF%D1%81%D0%BE%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D0%BD%D0%B0.jpg?raw=true?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
     },
     {
       title: 'Дизайнерские перегородки',
       description: 'Изготовление функциональных и эстетичных перегородок для зонирования пространства. Используем гипсокартон, стекло, дерево и другие материалы.',
       icon: <Divide size={24} className="text-white" />,
-      backgroundImage: 'https://images.unsplash.com/photo-1600607686527-6fb886090705?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+      backgroundImage: 'https://github.com/open00103/image/blob/main/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B5%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%BA%D0%B8.jpg?raw=true?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
     },
     {
       title: 'Декоративная штукатурка, жидкие обои',
       description: 'Нанесение декоративных покрытий для создания уникальных текстур и эффектов на стенах. Работаем с венецианской штукатуркой, жидкими обоями и другими декоративными материалами.',
       icon: <Palette size={24} className="text-white" />,
-      backgroundImage: 'https://images.unsplash.com/photo-1614633833026-0820552978b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+      backgroundImage: 'https://github.com/open00103/image/blob/main/%D0%94%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F%20%D1%88%D1%82%D1%83%D0%BA%D0%B0%D1%82%D1%83%D1%80%D0%BA%D0%B0,%20%D0%B6%D0%B8%D0%B4%D0%BA%D0%B8%D0%B5%20%D0%BE%D0%B1%D0%BE%D0%B8.jpg?raw=true?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
     },
     {
       title: 'Ремонт и утепление балконов',
       description: 'Комплексный ремонт и утепление балконов и лоджий. Выполняем внутреннюю и внешнюю отделку, устанавливаем остекление, проводим утепление современными материалами.',
       icon: <Thermometer size={24} className="text-white" />,
-      backgroundImage: 'https://images.unsplash.com/photo-1600566752355-35792bedcfea?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+      backgroundImage: 'https://github.com/open00103/image/blob/main/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B8%20%D1%83%D1%82%D0%B5%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B1%D0%B0%D0%BB%D0%BA%D0%BE%D0%BD%D0%BE%D0%B2.jpg?raw=true?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
     },
     {
       title: 'Сантехнические работы',
       description: 'Профессиональный монтаж и замена сантехнического оборудования. Установка ванн, душевых кабин, унитазов, раковин, смесителей. Монтаж и ремонт систем водоснабжения и канализации.',
       icon: <Shower size={24} className="text-white" />,
-      backgroundImage: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+      backgroundImage: 'https://github.com/open00103/image/blob/main/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B.jpg?raw=true?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
     },
     {
       title: 'Электромонтажные работы',
       description: 'Полный комплекс электромонтажных работ: прокладка новой проводки, замена старой, установка розеток, выключателей, светильников. Монтаж электрощитов и автоматов защиты.',
       icon: <Zap size={24} className="text-white" />,
-      backgroundImage: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+      backgroundImage: 'https://github.com/open00103/image/blob/main/%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D1%8B%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B.jpg?raw=true?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
     },
     {
       title: 'Натяжные потолки',
       description: 'Установка качественных натяжных потолков различных типов и фактур. Матовые, глянцевые, сатиновые, тканевые потолки с фотопечатью или без. Многоуровневые конструкции и потолки со светодиодной подсветкой.',
       icon: <Cloud size={24} className="text-white" />,
-      backgroundImage: 'https://images.unsplash.com/photo-1617806118233-18e1de247200?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+      backgroundImage: 'https://github.com/open00103/image/blob/main/%D0%9D%D0%B0%D1%82%D1%8F%D0%B6%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%BE%D1%82%D0%BE%D0%BB%D0%BA%D0%B8.jpg?raw=true?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
     },
     {
       title: 'Помощь в выборе и доставка материала',
       description: 'Профессиональная консультация по выбору отделочных материалов с учетом ваших пожеланий и бюджета. Помощь в подборе оптимальных вариантов и организация доставки всех необходимых материалов прямо на объект.',
       icon: <ShoppingBag size={24} className="text-white" />,
-      backgroundImage: 'https://images.unsplash.com/photo-1581783898377-1c85bf937427?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+      backgroundImage: 'https://github.com/open00103/image/blob/main/%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%20%D0%B2%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B5%20%D0%B8%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D0%B0.jpg?raw=true?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
     },
   ];
 
