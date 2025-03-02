@@ -16,7 +16,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
       <div className="absolute inset-0 bg-black bg-opacity-60"></div>
       <div className="container mx-auto px-4 relative z-10 h-full flex items-center">
         <div className="max-w-2xl my-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-8">
             Качественный ремонт
             и отделка помещений
             в Могилеве
